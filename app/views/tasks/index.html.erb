@@ -1,0 +1,7 @@
+<h1>My tasks</h1>
+
+<ol>
+  <% @tasks.each do |task| %>
+    <li><%= task.title.capitalize %></li>
+  <% end %>
+</ol>

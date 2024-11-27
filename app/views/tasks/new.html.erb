@@ -1,0 +1,7 @@
+<h3>Create a New Task</h3>
+<%= form_with model: @task do |form| %>
+  <%= form.text_field :title, placeholder: "title" %>
+  <%= form.text_field :details, placeholder: "details" %>
+
+  <%= form.submit %>
+<% end %>
